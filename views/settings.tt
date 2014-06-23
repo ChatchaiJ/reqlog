@@ -1,0 +1,84 @@
+<div class="container">
+<h3><% settings.appname %></h3>
+</div>
+
+<div class="container">
+<h3>Settings</h3>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>appname</dt><dd><% settings.appname %></dd>
+<dt>server</dt><dd><% settings.server %></dd>
+<dt>port</dt><dd><% settings.port %></dd>
+<dt>daemon</dt><dd><% settings.daemon %></dd>
+<dt>behind_proxy</dt><dd><% settings.behind_proxy %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>content_type</dt><dd><% settings.content_type %></dd>
+<dt>charset</dt><dd><% settings.charset %></dd>
+<dt>default_mime_type</dt><dd><% settings.default_mime_type %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>environment</dt><dd><% settings.environment %></dd>
+<dt>appdir</dt><dd><% settings.appdir %></dd>
+<dt>public</dt><dd><% settings.public %></dd>
+<dt>view</dt><dd><% settings.view %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>template</dt><dd><% settings.template %></dd>
+<dt>layout</dt><dd><% settings.layout %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>strict_config</dt><dd><% settings.strict_config %></dd>
+<dt>global_warnings</dt><dd><% settings.global_warnings %></dd>
+<dt>startup_info</dt><dd><% settings.startup_info %></dd>
+<dt>warnings</dt><dd><% settings.warnings %></dd>
+<dt>traces</dt><dd><% settings.traces %></dd>
+<dt>server_tokens</dt><dd><% settings.server_tokens %></dd>
+<dt>log_path</dt><dd><% settings.log_path %></dd>
+<dt>log_file</dt><dd><% settings.log_file %></dd>
+<dt>logger</dt><dd><% settings.logger %></dd>
+<dt>log</dt><dd><% settings.log %></dd>
+<dt>show_errors</dt><dd><% settings.show_errors %></dd>
+<dt>error_template</dt><dd><% settings.error_template %></dd>
+<dt>auto_reload</dt><dd><% settings.auto_reload %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>session</dt><dd><% settings.session %></dd>
+<dt>session_expires</dt><dd><% settings.session_expires %></dd>
+<dt>session_name</dt><dd><% settings.session_name %></dd>
+<dt>session_secure</dt><dd><% settings.session_secure %></dd>
+<dt>session_is_http_only</dt><dd><% settings.session_is_http_only %></dd>
+<dt>session_domain</dt><dd><% settings.session_domain %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>auto_page</dt><dd><% settings.auto_page %></dd>
+</dl>
+</div>
+
+<div class="container">
+<dl class="dl-horizontal">
+<dt>route_cache</dt><dd><% settings.route_cache %></dd>
+<dt>route_cache_size_limit</dt><dd><% settings.route_cache_size_limit %></dd>
+<dt>route_cache_path_limit</dt><dd><% settings.route_cache_path_limit %></dd>
+</dl>
+</div>

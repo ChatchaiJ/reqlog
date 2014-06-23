@@ -5,6 +5,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
 <title>reqlog</title>
 <link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css" >
 
 <!-- Grab jQuery from a CDN, fall back to local if necessary -->
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -15,8 +16,13 @@
 </head>
 <body>
 <% content %>
-<div id="footer">
-Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %>
-</div>
+
+<script src=""></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function()
+        {
+        });
+</script>
 </body>
 </html>

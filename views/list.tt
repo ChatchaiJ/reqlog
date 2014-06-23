@@ -1,0 +1,23 @@
+<div class="container">
+<h3><% settings.appname %></h3>
+</div>
+
+<div class="container">
+<h4>List</h4>
+There are <% count %> requests log.
+</div>
+
+<div class="container">
+<div class="col-md-6">
+<table class="table">
+<tr>
+<th>#</th><th>Req</th><th>TimeStamp</th>
+</tr>
+<% FOREACH q IN r %>
+<tr>
+<td><% q.id %></td> <td><% q.req %></td> <td><% q.t %></td>
+</tr>
+<% END %>
+</table>
+</div>
+</div>
