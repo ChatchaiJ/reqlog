@@ -9,9 +9,9 @@ $eumm_version =~ s/_//;
 
 WriteMakefile(
     NAME                => 'reqlog',
-    AUTHOR              => q{YOUR NAME <youremail@example.com>},
+    AUTHOR              => q{Chatchai Jantaraprim <chatchai.j@gmail.com>},
     VERSION_FROM        => 'lib/reqlog.pm',
-    ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
+    ABSTRACT            => 'Log request to database',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
       : ()),
